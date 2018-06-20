@@ -10,7 +10,8 @@
     "umd"
   ],
   "scripts": {
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "tsc": "node_modules/.bin/tsc src/index.ts"
   },
   "peerDependencies": {
     "react": "15.x || 16.x"
